@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1800px) { 
+@media only screen and (min-width: 1800px) { 
 
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -9,8 +9,13 @@ body{
     width: 80%;
     margin-left: 10%;
 }
-.nav, form ul{
+
+ form ul{
     list-style: none
+}
+header{
+    text-align: center;
+    padding: 10px;
 }
 header,footer{
     background-color: #8e8171
@@ -51,10 +56,12 @@ footer{
 .firstBearFooter{
     float: left;
     height: 48px;
+    width: auto;
 }
 .secondBearFooter{
     float: right;
     height:48px;
+    width: auto;
 }
 
 footer span {
