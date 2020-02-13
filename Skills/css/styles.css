@@ -41,6 +41,7 @@ label{
 }
 #formCrest{
     float: right;
+    text-align: right;
     width:50%;
 }
 footer{
@@ -49,13 +50,15 @@ footer{
 }
 .firstBearFooter{
     float: left;
+    height: 48px;
 }
 .secondBearFooter{
     float: right;
+    height:48px;
 }
 
 footer span {
-    font-size: 50
+    font-size: 50px;
 }
 .aboutLeft {
     width: 50%;
