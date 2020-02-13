@@ -1,5 +1,6 @@
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #d9872a
 }
 
 .container{
@@ -32,9 +33,25 @@ form{
     padding: 2.5%;
     background-color: #8e8171
 }
-.btnSubmit{
 
-}
 label{
     color: #f78a0e;
+}
+#formCrest{
+    float: right;
+    width:50%;
+}
+footer{
+    text-align: center;
+    height: 50px;
+}
+.firstBearFooter{
+    float: left;
+}
+.secondBearFooter{
+    float: right;
+}
+
+footer span {
+    font-size: 50
 }
