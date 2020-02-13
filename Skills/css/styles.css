@@ -1,0 +1,40 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.container{
+    width: 80%;
+    margin-left: 10%;
+}
+.nav, form ul{
+    list-style: none
+}
+header,footer{
+    background-color: #8e8171
+}
+a{
+    color: #d9872a
+}
+a:hover{
+    color: #f78a0e
+}
+
+a:visited{
+    color: #d9872a
+}
+input, textarea{
+    border-radius: 1%;
+}
+form{
+    border-radius: 1%;
+    margin: 0% auto;
+    width: 75%;
+    padding: 2.5%;
+    background-color: #8e8171
+}
+.btnSubmit{
+
+}
+label{
+    color: #f78a0e;
+}
