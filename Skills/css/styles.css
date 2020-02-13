@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1800px) { 
+
 
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -38,7 +38,17 @@ form{
     margin: 0% auto;
     width: 75%;
     padding: 2.5%;
-    background-color: #8e8171
+
+}
+
+h1 {
+    
+    text-align: center;
+    margin: 10 auto;
+}
+
+p {
+    font-size: 1.3em;
 }
 
 label{
@@ -52,6 +62,7 @@ label{
 footer{
     text-align: center;
     height: 50px;
+    clear: both;
 }
 .firstBearFooter{
     float: left;
@@ -96,4 +107,102 @@ footer span {
     margin: 0 auto;
 }
 
+#formCrest img {
+    width: 75%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .index {
+        width: 100%;
+    }
+
+    .index img {
+        width: 60%;
+    }
+
+    .aboutLeft {
+        width: 100%;
+        float: none;
+    }
+
+    .aboutRight {
+        float: none;
+    }
+
+    .aboutRight img {
+        width: 60%;
+    }
+
+    .about {
+        text-align: center;
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .map {
+        width: 90%;
+    }
+
+    #formCrest {
+        display: none;
+    }
+
+    .inputs {
+        width: 100%;
+        text-align: center;
+    }
+
+    form {
+        width: 95%;
+        text-align: center;
+        
+    }
+
+    ul {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    footer span {
+        font-size: 20px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+    .aboutLeft {
+        width: 100%;
+        float: none;
+    }
+
+    .aboutRight {
+        float: none;
+    }
+
+    .aboutRight img {
+        width: 60%;
+    }
+
+    .about {
+        text-align: center;
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .map {
+        width: 90%;
+    }
 }
