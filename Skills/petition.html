@@ -30,7 +30,7 @@
                 </li>
             </ul>
         </header>
-        <form action="thankyou.html">
+        <form action="thankyou.html" >
             <h3>Sign The petition for BearTooth</h3>
             <div id="inputs">
                 <ul>
@@ -42,7 +42,7 @@
                     </li>
                     <li>
                         
-                           <input id="nameInput" type="text">
+                           <input id="nameInput" type="text" required>
                     </li>
                     <br>
                     <li>
@@ -50,7 +50,7 @@
                     </li>
                     <li>
                         
-                        <input id="emailInput"type="email">
+                        <input id="emailInput"type="email" required>
                     </li>
                     <br>
                     <li>
@@ -58,11 +58,11 @@
                     </li>
                     <li>
                         
-                         <textarea name="" id="commentInput" cols="30" rows="10"></textarea>
+                         <textarea name="" id="commentInput" cols="30" rows="10" ></textarea>
                     </li>
                     <br>
                     <li>
-                        <input id="btnSubmit" type="submit">
+                        <input id="btnSubmit" type="submit" onclick="Validate();">
                     </li>
                    
                 </ul>
@@ -81,6 +81,6 @@
         </footer>
     </div>
     
-    <script src="/javascript/main.js" > </script>
+ 
 </body>
 </html>
